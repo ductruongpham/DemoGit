@@ -1,0 +1,168 @@
+/*Header begin */   
+    .header {
+        display: flex;
+        justify-content: center;
+       
+    
+    }
+/*Part-1*/
+    .header__content {
+    display: inline-block;
+    }     
+    .header__logo { 
+        padding: 100px 0 50px 0;
+    }
+    .header__logo-image {
+        width: 100px;
+        height: auto;
+    }
+    .header__element-1 {
+        color: var(--white-color);
+        font-size: 3.0rem;
+        font-weight: 500;
+    }
+    .header__element-2 {
+        color: var(--white-color);
+        font-size: 2.3rem;
+        padding: 15px 0 15px 0 ;
+    }
+    .header__element-3 {
+        color: var(--white-color);
+        line-height: 2.0;
+        font-size: 1.5rem;
+        list-style: none;
+    }
+/*Part-2*/
+    .header__image {
+        width: 15%;
+        margin : 300px 0 0 0; 
+    }
+/*Part-3*/
+    .header__login-background {
+        background-color: var(--white-color);
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 20vw;
+        height: 50vh ;
+        margin : 100px
+    }
+    .header__login {
+        text-align: center;
+    }
+    .header__login-heading {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 40px 0 25px 0 ;
+    }
+    .header__login-close {
+        font-size: 2.0rem;
+        margin: -20px -60px 0 0;
+    }
+    .header__login-heading-1 {
+        font-size: 3.0rem;
+        font-weight: 600;
+        text-align: left;
+        padding-left: 35px ;       
+    }
+    .header__login-text {
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-align: right;
+        padding-right: 35px ;
+    }
+    .header__login-text-1 {
+        color: #7cad58;
+    }
+    .header__login-item {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 3px;
+        padding: 35px 35px 20px 35px;
+    }
+    .header__login-element {    
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #d4d1d3 ;
+        padding: 10px 0 10px 0
+    }
+    .header__login-connect {
+        font-size: 1.5rem ;
+        color: #d4d1d3 ;
+        padding-bottom: 20px;
+    }
+    .header__login-input {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 5px;
+        padding: 0 35px 0 35px ;
+    }
+    .header__input-border {
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #d4d1d3;
+        padding: 10px; 
+    }
+    .header__login-accept {
+        display: grid;
+        grid-template-columns: 50% auto;
+        gap: 5px;
+        padding: 20px 35px 50px 35px ;
+    }
+    .header__login-accept-1 {
+        font-size: 1.3rem ;
+        font-weight: 500;
+        box-sizing: border-box;
+        border: 1px solid #d4d1d3;
+        border-radius: 5px;
+        padding: 10px 0 10px 0;
+    }
+    .header__login-accept-2 {
+        font-size: 1.3rem ;
+        color: var(--white-color);
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: var(--green-color);
+        padding: 10px 0 10px 0;
+    }
+    /*footer begin */
+    .footer {
+        background: url(../img/footer.png) no-repeat center /contain ;
+    }
+    .footer__content {
+        margin-bottom: 50px;
+        margin-left : 370px
+    }
+    .footer__logo-image {
+        width: 100px;
+        height: auto;
+    }
+    .fa-brands {
+        color: var(--white-color);
+        font-size: 22px;
+    }
+    .footer__element-1 {
+        display: flex;
+        list-style: none;
+        letter-spacing: 10px;
+        padding: 30px 0 20px 0;
+    }
+    .footer__element-2 {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        color: var(--white-color);
+        box-sizing: content-box;
+        width: 550px;
+        padding-bottom: 20px;
+    }
+    .footer__element-3 {
+        font-size: 1.1rem;
+        color: var(--white-color);
+    }
+    .footer__element-4 {
+        text-decoration: underline;
+        color: var(--white-color);
+    }
